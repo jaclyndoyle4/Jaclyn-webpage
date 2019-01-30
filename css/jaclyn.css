@@ -10,9 +10,14 @@ body {
   /* Increase the line height to 1.5 times the default font-size */
   line-height: 1.5;
 }
-
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 h1  {
-  text-align:center;
+  text-align: center;
 }
 
 p {
@@ -30,6 +35,6 @@ h1 {
 h2 {text-align: center;
 }
 
-strong {background-color: pink;}
+strong {background-color: white;}
 
-article {background-color: pink;}
+article {background-color: white;}
