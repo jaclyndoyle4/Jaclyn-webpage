@@ -1,5 +1,5 @@
 body {
-  border: solid/* Remove the margin */
+  border: solid;/* Remove the margin */
   margin: 0;
 
   /* Set the font-family to Helvetica, Arial, sans-serif */
@@ -20,16 +20,30 @@ h1  {
   text-align: center;
 }
 
+section {
+  display: grid;
+}
 p {
 text-align: center;
 }
 
-.achievements {text-align: center;
+achievements {text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-id=runnning calendar {text-align: center;}
+#runnning-calendar {text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 h1 {
-  border:1px solid hotpink; border-style: double;
+  border:1px solid hotpink;
+  border-style: double;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2 {text-align: center;
@@ -38,3 +52,11 @@ h2 {text-align: center;
 strong {background-color: white;}
 
 article {background-color: white;}
+
+img {
+width:60%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
